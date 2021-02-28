@@ -14,12 +14,15 @@ const navigation = ({ linkItems }) => {
                 <div className={toggleDropdownMenu ? "collapse navbar-collapse show" : "collapse navbar-collapse"}>
                     <ul className="navbar-nav">
                         { linkItems && 
-                        linkItems.map(item => 
-                            (<li className="nav-item" key={item._id}>
+                        linkItems.map(item => {
+                            if(item.name !== 'Awards') {
+                                return (<li className="nav-item" key={item._id} onClick={() => setToggleDropdownMenu(false)}>
                                 <Link to={item.link} as={item.link} href={item.link}>
                                     <a className="nav-link js-scroll-trigger">{item.name}</a>
                                 </Link>
                             </li>)
+                            } 
+                        }
                          )}
                     </ul>
                 </div>

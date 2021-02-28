@@ -10115,3 +10115,23 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.next-page-link {
+  padding: 1rem;
+  background-color: #bd5d38;
+  color: #fff;
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.next-page-link:first-child {
+  margin-left: 0rem;
+}
+@media (max-width: 768px) {
+  .next-page-link {
+    width: 100%;
+  }
+  .next-page-link {
+    margin-left: 0rem;
+  }
+}

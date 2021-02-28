@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 
 const awards = props => {
@@ -46,6 +47,12 @@ const awards = props => {
                             Place - James Buchanan High School - Hackathon 2005
                         </li>
                     </ul>
+                    <Link to={'/about'} as={'/about'} href={'/about'}>
+                        <a className="nav-link js-scroll-trigger next-page-link">View About</a>
+                    </Link>
+                    <Link to={'/interests'} as={'/interests'} href={'/interests'}>
+                        <a className="nav-link js-scroll-trigger next-page-link">View Interests</a>
+                    </Link>
                 </div>
             </section>
     );

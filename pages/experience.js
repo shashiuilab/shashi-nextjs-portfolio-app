@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 
 const experienceDetails = props => {
@@ -8,36 +9,79 @@ const experienceDetails = props => {
                     <h2 className="mb-5">Experience</h2>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Senior Web Developer</h3>
-                            <div className="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 className="mb-0">Senior Javascript Full stack Developer</h3>
+                            <h4>Client: Boots Pharmacy</h4>
+                            <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
+                            Working closely with Solution architects, Business analysts, Scrum masters to ensure delivery
+● Leading a front-end team at offshore ensuring timely delivery and explaining requirements
+● BDD building test cases using Jest with minimum threshold test coverage of 80%
+● Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as ReactJS, Redux, NodeJS,
+ExpressJS, and MongoDB.
+● Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript and almost all the ES6
+features.
+● Performing bug fixes and code reviews.
+● Developing of Reusable components that are fast and responsive.
+● Providing technology recommendations to clients and other core teams in picking the right JS framework or
+library.
+● Designing UI workflows for various clients.
+● Making a development strategy to kick off the development.
+● Building RFPs to gain new clients.
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">March 2013 - Present</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">June 2019 – Present</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Web Developer</h3>
-                            <div className="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <h3 className="mb-0">JavaScript Full stack Developer</h3>
+                            <h4>Client: Barclays Plc</h4>
+                            <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
+                            Working closely with Solution designer, Team Lead, Offshore delivery manager for building react applications
+● Leading a front-end team at offshore ensuring timely delivery and explaining requirements
+● BDD building test cases using Jest, enzyme
+● Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as ReactJS, Redux, NodeJS,
+ExpressJS
+● Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript and almost all the ES6
+features.
+● Performing bug fixes and code reviews.
+● Providing technology recommendations to clients and other core teams in picking the right JS framework or
+library.
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">December 2011 - March 2013</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">December 2015 - June 2019</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Junior Web Designer</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div className="flex-shrink-0"><span className="text-primary">July 2010 - December 2011</span></div>
+                            <h3 className="mb-0">Front end Web Developer</h3>
+                            <h4>Client: AMEX</h4>
+                            <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
+                        
+                        Working closely with Solution designer, Team Lead, Offshore delivery manager for building react applications
+● Leading a front-end team at offshore ensuring timely delivery and explaining requirements
+● BDD building test cases using Jest, enzyme
+● Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as jQuery, Angular 1.x,
+Vanilla JavaScript
+● Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript
+● Performing bug fixes and code reviews.
+● Providing technology recommendations to clients and other core teams in picking the right JS framework or
+library.
+</div>
+                        <div className="flex-shrink-0"><span className="text-primary">June 2012 - December 2015</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Web Design Intern</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 className="mb-0">Front End Developer</h3>
+                            <h4>Client: MERCK</h4>
+                            <div className="subheading mb-3">Employer: HCL Technologies</div>
+                            Development of web applications using HTML5, CSS3, JavaScript, jQuery, Bootstrap and Adobe Photoshop.
+● Debugging of various applications and providing fixes for defects raised by the testing team.
+● Updating the defect status on QC
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">September 2008 - June 2010</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">September 2010 - May 2012</span></div>
                     </div>
+                <Link to={'/about'} as={'/about'} href={'/about'}>
+                    <a className="nav-link js-scroll-trigger next-page-link">View About</a>
+                </Link>
+                <Link to={'/skills'} as={'/skills'} href={'/skills'}>
+                    <a className="nav-link js-scroll-trigger next-page-link">View Skills</a>
+                </Link>
                 </div>
             </section>
     );

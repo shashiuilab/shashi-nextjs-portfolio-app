@@ -7,7 +7,7 @@ const layout = ({ children }) => {
     const [linkItems, setLinkItems ] = useState([]);
     useEffect(() => {
         const fetchLinkItems = async () => {
-            const res = await fetch('http://localhost:3000/api/navlinks');
+            const res = await fetch('/api/navlinks');
             const results = await res.json();
             setLinkItems(results);
         }

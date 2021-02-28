@@ -6,6 +6,7 @@ const about = props => {
     return (
         <section className="resume-section" id="about">
             <div className="resume-section-content">
+                <div className="profile_pic_style"><img src={'../profile_pic.jpg'} alt={'Profile Pic'} /></div>
                 <h2 className="mb-1">
                     Shashidhar Reddy
                 </h2>

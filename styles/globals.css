@@ -10095,7 +10095,7 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   max-width: 75rem;
 }
@@ -10134,5 +10134,25 @@ section.resume-section .resume-section-content {
   }
   .next-page-link {
     margin-left: 0rem;
+  }
+}
+.profile_pic_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_pic_style img {
+  width: 8rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+@media (min-width: 992px) {
+  .profile_pic_style {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .profile_pic_style {
+    display: none;
   }
 }

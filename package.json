@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
     "express": "^4.17.1",
     "mongodb": "^3.6.3",
     "next": "10.0.7",

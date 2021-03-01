@@ -62,7 +62,7 @@ library.
                                 </li>
                                 </ul>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">June 2019 – Present</span></div>
+                        <div className="flex-shrink-0 subText"><span className="text-primary">June 2019 – Present</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
@@ -99,7 +99,7 @@ library.
                                 </li>
                                 </ul>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">December 2015 - June 2019</span></div>
+                        <div className="flex-shrink-0 subText"><span className="text-primary">December 2015 - June 2019</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
@@ -139,7 +139,7 @@ library.
                                 </li>
                             </ul>
 </div>
-                        <div className="flex-shrink-0"><span className="text-primary">June 2012 - December 2015</span></div>
+                        <div className="flex-shrink-0 subText"><span className="text-primary">June 2012 - December 2015</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
@@ -161,8 +161,18 @@ library.
                                 </li>
                             </ul>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">September 2010 - May 2012</span></div>
+                        <div className="flex-shrink-0 subText"><span className="text-primary">September 2010 - May 2012</span></div>
                     </div>
+                    <style jsx> {
+                            `
+                            .subText {
+                                padding: 1rem;
+                                text-align: center;
+                                font-weight: bold;
+                            }
+                            `
+                        }
+                        </style>
                 <Link to={'/about'} as={'/about'} href={'/about'}>
                     <a className="nav-link js-scroll-trigger next-page-link">View About</a>
                 </Link>

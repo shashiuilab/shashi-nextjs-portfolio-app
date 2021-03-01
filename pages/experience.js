@@ -10,7 +10,7 @@ const experienceDetails = props => {
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
                             <h3 className="mb-0">Senior Javascript Full stack Developer</h3>
-                            <h4>Client: Boots Pharmacy</h4>
+                            <h4>Client: Retail, UK</h4>
                             <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
                             <ul className="fa-ul mb-0">
                                 <li>
@@ -67,7 +67,7 @@ library.
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
                             <h3 className="mb-0">JavaScript Full stack Developer</h3>
-                            <h4>Client: Barclays Plc</h4>
+                            <h4>Client: Banking and Financial Services, UK</h4>
                             <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
                             <ul className="fa-ul mb-0">
                                 <li>
@@ -104,7 +104,7 @@ library.
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
                             <h3 className="mb-0">Front end Web Developer</h3>
-                            <h4>Client: AMEX</h4>
+                            <h4>Client: Banking and Financial Services, UK</h4>
                             <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
                             <ul className="fa-ul mb-0">
                                 <li>
@@ -144,7 +144,7 @@ library.
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
                             <h3 className="mb-0">Front End Developer</h3>
-                            <h4>Client: MERCK</h4>
+                            <h4>Client: Healthcare, USA</h4>
                             <div className="subheading mb-3">Employer: HCL Technologies</div>
                             <ul className="fa-ul mb-0">
                                 <li>

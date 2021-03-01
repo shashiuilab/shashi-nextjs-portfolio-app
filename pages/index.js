@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
         <div className="container-fluid p-0">
+          
           <h2>Welcome to my Portfolio.</h2>
           <h3 className="mt-4">This is Shashi and I am a Full Stack Developer!!!</h3>
           <hr />

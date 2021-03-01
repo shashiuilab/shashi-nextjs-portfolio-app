@@ -8,23 +8,23 @@ const skillDetails = props => {
                 <div className="resume-section-content">
                     <h2 className="mb-5">Skills</h2>
                     <div className="subheading mb-3">Technical Skills</div>
-                    <ul class="fa-ul mb-0">
+                    <ul className="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             HTML5, CSS3, JavaScript, ES6, ReactJS, React Native, Redux, NEXT JS, Webpack, AngularJS,
 RequireJS, NodeJS, ExpressJS, Grunt, Jasmine, Bootstrap, JQuery, CSS (SASS & LESS), AJAX, JSP, MySQL,
 PostGreSql, XML, C#, ASP.net.
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             MongoDB, MySQL, PostgreSQL, SQL Server, MS Access, Oracle
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             Bitbucket, GitLab, GitHub, CVS, SVN
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             Jest, Enzyme, React Testing Library, Mocha, Chai, Cypress, Nightwatch.JS
                         </li>
                     </ul>
@@ -58,31 +58,31 @@ PostGreSql, XML, C#, ASP.net.
                         <li className="list-inline-item" title="Node JS"><i className="fab fa-node-js"></i></li>
                         <li className="list-inline-item" title="React JS"><i className="fab fa-react"></i></li>
                         <li className="list-inline-item" title="">Redux</li>
-                        <li className="list-inline-item" title="Vue JS"><i class="fab fa-vuejs"></i></li>
+                        <li className="list-inline-item" title="Vue JS"><i className="fab fa-vuejs"></i></li>
                         <li className="list-inline-item" title="Angular JS"><i className="fab fa-angular"></i></li>
                         <li className="list-inline-item" title="SASS"><i className="fab fa-sass"></i></li>
                         <li className="list-inline-item" title="LESS"><i className="fab fa-less"></i></li>
                         <li className="list-inline-item" title="GULP"><i className="fab fa-gulp"></i></li>
                         <li className="list-inline-item" title="GRUNT"><i className="fab fa-grunt"></i></li>
                         <li className="list-inline-item" title="NPM"><i className="fab fa-npm"></i></li>
-                        <li className="list-inline-item" title="MONGO DB/ MySQL"><i class="fas fa-database"></i></li>
+                        <li className="list-inline-item" title="MONGO DB/ MySQL"><i className="fas fa-database"></i></li>
                         <li className="list-inline-item">etc.,.</li>
                     </ul>
-                    <ul class="fa-ul mb-0">
+                    <ul className="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             Excellent Comminication Skills
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             Experience in working as an individual player and as a Team lead/ member.
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             Understanding of Agile Methodologies and ways of working.
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <span className="fa-li"><i className="fas fa-check"></i></span>
                             Contributions to the Architectural designs and desicion making.
                         </li>
                     </ul>

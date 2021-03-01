@@ -12,20 +12,55 @@ const experienceDetails = props => {
                             <h3 className="mb-0">Senior Javascript Full stack Developer</h3>
                             <h4>Client: Boots Pharmacy</h4>
                             <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
-                            Working closely with Solution architects, Business analysts, Scrum masters to ensure delivery
-● Leading a front-end team at offshore ensuring timely delivery and explaining requirements
-● BDD building test cases using Jest with minimum threshold test coverage of 80%
-● Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as ReactJS, Redux, NodeJS,
+                            <ul className="fa-ul mb-0">
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Working closely with Solution architects, Business analysts, Scrum masters to ensure delivery
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Leading a front-end team at offshore ensuring timely delivery and explaining requirements
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    BDD building test cases using Jest with minimum threshold test coverage of 80%
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as ReactJS, Redux, NodeJS,
 ExpressJS, and MongoDB.
-● Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript and almost all the ES6
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript and almost all the ES6
 features.
-● Performing bug fixes and code reviews.
-● Developing of Reusable components that are fast and responsive.
-● Providing technology recommendations to clients and other core teams in picking the right JS framework or
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Performing bug fixes and code reviews.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Developing of Reusable components that are fast and responsive.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Providing technology recommendations to clients and other core teams in picking the right JS framework or
 library.
-● Designing UI workflows for various clients.
-● Making a development strategy to kick off the development.
-● Building RFPs to gain new clients.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Designing UI workflows for various clients.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Making a development strategy to kick off the development.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Building RFPs to gain new clients.
+                                </li>
+                                </ul>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">June 2019 – Present</span></div>
                     </div>
@@ -34,16 +69,35 @@ library.
                             <h3 className="mb-0">JavaScript Full stack Developer</h3>
                             <h4>Client: Barclays Plc</h4>
                             <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
-                            Working closely with Solution designer, Team Lead, Offshore delivery manager for building react applications
-● Leading a front-end team at offshore ensuring timely delivery and explaining requirements
-● BDD building test cases using Jest, enzyme
-● Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as ReactJS, Redux, NodeJS,
+                            <ul className="fa-ul mb-0">
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Working closely with Solution designer, Team Lead, Offshore delivery manager for building react applications
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Leading a front-end team at offshore ensuring timely delivery and explaining requirements
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as ReactJS, Redux, NodeJS,
 ExpressJS
-● Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript and almost all the ES6
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript and almost all the ES6
 features.
-● Performing bug fixes and code reviews.
-● Providing technology recommendations to clients and other core teams in picking the right JS framework or
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Performing bug fixes and code reviews.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Providing technology recommendations to clients and other core teams in picking the right JS framework or
 library.
+                                </li>
+                                </ul>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">December 2015 - June 2019</span></div>
                     </div>
@@ -52,16 +106,38 @@ library.
                             <h3 className="mb-0">Front end Web Developer</h3>
                             <h4>Client: AMEX</h4>
                             <div className="subheading mb-3">Employer: Cognizant Worldwide</div>
-                        
-                        Working closely with Solution designer, Team Lead, Offshore delivery manager for building react applications
-● Leading a front-end team at offshore ensuring timely delivery and explaining requirements
-● BDD building test cases using Jest, enzyme
-● Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as jQuery, Angular 1.x,
+                            <ul className="fa-ul mb-0">
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Working closely with Solution designer, Team Lead, Offshore delivery manager for building react applications
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Leading a front-end team at offshore ensuring timely delivery and explaining requirements
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    BDD building test cases using Jest, enzyme
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Building of highly reactive and dynamic SPAs using edge JavaScript technologies such as jQuery, Angular 1.x,
 Vanilla JavaScript
-● Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript
-● Performing bug fixes and code reviews.
-● Providing technology recommendations to clients and other core teams in picking the right JS framework or
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Building apps using HTML5, CSS3, Bootstrap, SASS, Webpack, Jade, jQuery, JavaScript
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Performing bug fixes and code reviews.
+                                </li>
+                                <li>
+                                <span className="fa-li"><i className="fas fa-check"></i></span>
+                                Providing technology recommendations to clients and other core teams in picking the right JS framework or
 library.
+                                </li>
+                            </ul>
 </div>
                         <div className="flex-shrink-0"><span className="text-primary">June 2012 - December 2015</span></div>
                     </div>
@@ -70,9 +146,20 @@ library.
                             <h3 className="mb-0">Front End Developer</h3>
                             <h4>Client: MERCK</h4>
                             <div className="subheading mb-3">Employer: HCL Technologies</div>
-                            Development of web applications using HTML5, CSS3, JavaScript, jQuery, Bootstrap and Adobe Photoshop.
-● Debugging of various applications and providing fixes for defects raised by the testing team.
-● Updating the defect status on QC
+                            <ul className="fa-ul mb-0">
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Development of web applications using HTML5, CSS3, JavaScript, jQuery, Bootstrap and Adobe Photoshop.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Debugging of various applications and providing fixes for defects raised by the testing team.
+                                </li>
+                                <li>
+                                    <span className="fa-li"><i className="fas fa-check"></i></span>
+                                    Updating the defect status on QC
+                                </li>
+                            </ul>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">September 2010 - May 2012</span></div>
                     </div>

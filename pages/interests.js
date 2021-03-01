@@ -8,6 +8,7 @@ const interests = props => {
             <div className="resume-section-content">
                 <h2 className="mb-5">Interests</h2>
                 <p>Apart from being a Full Stack Developer, I practise photography. Watch Web series of all kinds(For photography). Write Blogs. Read novels/ books/ news papers. Listen Music.</p>
+                <p>If interested in some not so great work with my lens, follow on <a className="social-icon" href="https://instagram.com/truelyshashiphotography/" target="_blank"><i className="fab fa-instagram"></i></a></p>
                 <Link to={'/education'} as={'/education'} href={'/education'}>
                     <a className="nav-link js-scroll-trigger next-page-link">View Education</a>
                 </Link>
